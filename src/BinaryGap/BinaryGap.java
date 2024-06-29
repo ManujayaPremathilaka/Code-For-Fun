@@ -22,9 +22,9 @@ public class BinaryGap {
                     }
                     tempMaxGap++;
                 }
-                if (isArrHasNoBinaryGap(binaryArr, j - CONST_NUMBER_ONE)){
-                    maxGap = CONST_NUMBER_ZERO;
-                }
+//                if (isArrHasNoBinaryGap(binaryArr, j - CONST_NUMBER_ONE)){
+//                    maxGap = CONST_NUMBER_ZERO;
+//                }
             }
         }
 
@@ -51,7 +51,7 @@ public class BinaryGap {
 
     public static void main(String[] args) {
         BinaryGap bg = new BinaryGap();
-        int[] arr = {1,2,147,483,647};
+        int[] arr = {1,2, 32, 147,483,647};
 
         for (int i  = CONST_NUMBER_ZERO; i < arr.length; i++){
             int maxGap = bg.getBinaryGap(arr[i]);
