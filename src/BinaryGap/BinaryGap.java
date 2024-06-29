@@ -22,9 +22,6 @@ public class BinaryGap {
                     }
                     tempMaxGap++;
                 }
-//                if (isArrHasNoBinaryGap(binaryArr, j - CONST_NUMBER_ONE)){
-//                    maxGap = CONST_NUMBER_ZERO;
-//                }
             }
         }
 
